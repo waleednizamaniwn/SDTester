@@ -1,0 +1,56 @@
+﻿Exercise 1:
+
+	There is no error.
+
+Exercise 2:
+
+	Runtime error. Remove “/0” to fix.
+
+public class HelloWorld
+{
+	public static void main(String[] args)
+	{
+		System.out.print(100);
+	}
+}
+
+
+Exercise 3:
+
+	Syntax error. Should be “System” instead of “Sytem” in line 5.
+
+public class HelloWorld
+{
+	public static void main(String[] args)
+	{
+		System.out.println(100/100);
+	}
+}
+
+Exercise 4:
+
+Syntax error. Variable “a” not declared. Possible solution is declaring variable “a” to be 5.
+
+public class HelloWorld
+{
+	public static void main(String[] args)
+	{
+		int a = 5, b = 15;
+		System.out.println(a + “     ” + b);
+	}
+}
+
+Exercise 5:
+
+	Syntax error. Variable c is not declared.
+
+Public class HelloWorld
+{
+	public static void main(String[] args)
+	{
+		int a=15;
+		int b = 16;
+		int c = a+b;
+		System.out.println(c);
+	}
+}
